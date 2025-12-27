@@ -151,6 +151,66 @@ function App() {
         </div>
       </div>
       {/* <!-- End Projects --> */}
+
+      {/* <!-- Contact --> */}
+      <div className="contact mt-32 p-10">
+        <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
+        <p className="text-base/loose opacity-50 text-center mb-10">
+          Feel free to reach out for collaborations or just a friendly hello!
+        </p>
+        <form
+          action="https://formsubmit.co/clipnime27@gmail.com"
+          method="POST"
+          className="bg-zinc-800 p-10 w-fit mx-auto rounded-md"
+          autoComplete="off"
+        >
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-2">
+              <label className="font-semibold">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                className="border border-zinc-500 rounded-md p-2"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2">
+              <label className="font-semibold">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                className="border border-zinc-500 rounded-md p-2"
+                required
+              />
+            </div>
+            <div className="flex flex-col gap-2">
+              <label htmlFor="message" className="font-semibold">
+                Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                cols="45"
+                rows="7"
+                placeholder="Your Message"
+                className="border border-zinc-500 rounded-md p-2"
+                required
+              ></textarea>
+            </div>
+            <div className="text-center">
+              <button
+                type="submit"
+                className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      {/* <!-- End Contact --> */}
     </>
   );
 }
