@@ -15,14 +15,20 @@ const Footer = () => {
       </div>
       <div className="flex gap-3 items-center">
         <a
-          href="#"
+          href="https://github.com/andikazulprisa"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
           className="inline-block transition-transform duration-300 ease-in-out hover:scale-150"
         >
           <i className="ri-github-fill ri-2x"></i>
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/andika-zulprisa/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block transition-transform duration-300 ease-in-out hover:scale-150"
+          aria-label="Linkedin"
         >
           <i className="ri-linkedin-fill ri-2x"></i>
         </a>

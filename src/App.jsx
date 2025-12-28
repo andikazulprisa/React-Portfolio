@@ -27,7 +27,9 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href="https://docs.google.com/document/d/1JtbgZghKMxeUyJYwueYRLEghTmc2vPsNqB3mD4wftJ0/edit?hl=ID&tab=t.0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
               Download CV <i className="ri-download-line ri-lg"></i>
