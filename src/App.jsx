@@ -33,7 +33,7 @@ function App() {
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a
-              href="#"
+              href="#projects"
               className="bg-zinc-800 p-4 rounded-2xl hover:bg-zinc-700"
             >
               My Projects <i class="ri-arrow-down-line ri-lg"></i>
@@ -50,7 +50,7 @@ function App() {
       {/* <!-- End Hero --> */}
 
       {/* <!-- About --> */}
-      <div className="about mt-32 py-10">
+      <div className="about mt-32 py-10" id="about">
         <div
           className="xl:w-2/3 lg:w-3/4 w-full mx-auto rounded-lg p-7 bg-zinc-800"
           data-aos="fade-up"
@@ -135,7 +135,7 @@ function App() {
       {/* <!-- End About --> */}
 
       {/* <!-- Projects --> */}
-      <div className="project mt-32 py-10">
+      <div className="project mt-32 py-10" id="projects">
         <h1
           className="text-center text-4xl font-bold mb-2"
           data-aos="fade-up"
@@ -190,7 +190,7 @@ function App() {
       {/* <!-- End Projects --> */}
 
       {/* <!-- Contact --> */}
-      <div className="contact mt-32 sm:p-10 p-0">
+      <div className="contact mt-32 sm:p-10 p-0" id="contact">
         <h1
           className="text-4xl mb-2 font-bold text-center"
           data-aos="fade-up"
