@@ -1,4 +1,4 @@
-import HeroImage from "/assets/hero-img.webp";
+import HeroImage from "/assets/hero-img.png";
 
 const Image = {
   HeroImage,
@@ -17,6 +17,7 @@ import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/postgresql.svg";
 import Tools10 from "/assets/tools/postman.png";
 import Tools11 from "/assets/tools/java.png";
+import Tools12 from "/assets/tools/typescript.png";
 
 export const listTools = [
   {
@@ -96,62 +97,75 @@ export const listTools = [
     ket: "Language",
     dad: "1100",
   },
+  {
+    id: 12,
+    gambar: Tools12,
+    nama: "Typescript",
+    ket: "Language",
+    dad: "1200",
+  },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek4 from "/assets/proyek/proyek4.png";
+import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek6 from "/assets/proyek/proyek6.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "Global Green",
+    desk: "In this project, I handled the backend development using Python and Flask, focusing on database schema design, REST API development, authentication, and transaction management.",
+    tools: ["Python", "Flask", "PostgreSQL", "Postman"],
     dad: "200",
+    link: "https://github.com/andikazulprisa/GlobalGreen-BackEnd",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    nama: "Web Portfolio 2.0",
+    desk: "A single-page personal portfolio website developed with React.js, featuring smooth navigation, animations, and responsive layout to present my profile, tools, and project experience.",
+    tools: ["ReactJS", "TailwindCSS", "Javascript", "AOS"],
     dad: "300",
+    link: "https://github.com/andikazulprisa/React-Portfolio",
   },
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "Kamart",
+    desk: "Kamart is an e-commerce website inspired by modern retail platforms, built with Next.js, TypeScript, and Tailwind CSS to provide a clean, fast, and responsive shopping experience.",
+    tools: ["NextJS", "TypeScript", "TailwindCSS"],
     dad: "400",
+    link: "https://github.com/andikazulprisa/Kamart",
   },
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    nama: "Market Backend API",
+    desk: "Market Backend API is a backend service for a marketplace platform, currently under development. This project focuses on API design, database schema, and core business logic for an e-commerce system.",
+    tools: ["Python", "Flask", "PostgreSQL", "Postman"],
     dad: "500",
+    link: "https://github.com/andikazulprisa/market-backend",
   },
   {
     id: 5,
     gambar: Proyek5,
     nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    desk: "Personal Web Portfolio (v1) is my first portfolio website built using only HTML, CSS, and JavaScript. This project represents my initial step into web development before transitioning to a React-based architecture.",
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "600",
+    link: "https://kazuha.online/",
   },
   {
     id: 6,
     gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    nama: "Backend API — Java Spring Boot",
+    desk: "A backend service built with Java Spring Boot, focusing on RESTful API implementation, epoch time conversion (seconds-based), and robust error handling to ensure clear and human-readable API responses.",
+    tools: ["Java", "Spring Boot"],
     dad: "700",
+    link: "https://github.com/andikazulprisa/Jasamedika-Backend",
   },
 ];
